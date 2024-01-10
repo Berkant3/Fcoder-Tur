@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap");
+@import "variables";
+@import "components";
+@import "header";
+@import "navbar";
+@import "events";
+@import "explore";
+@import "tours";
+@import "footer";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: $body-color; 
+  overflow-x: hidden;
+}
+
+.menu-btn {
+  display: none;
+}
+
+
